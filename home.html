@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Function Power Mobile Apps</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+
+  <main class="flex justify-center">
+    <div class="mockup-phone">
+      <div class="camera"></div>
+      <div class="display">
+        <div class="artboard artboard-demo phone-3">
+
+          <!-- Total Amount Html Mockup Start -->
+
+          <div class="stats shadow">
+            <div class="stat">
+              <div id="parent-amount" class="stat-value">500</div>
+            </div>
+          </div>
+
+          <!-- Total Amount Html Mockup End -->
+
+          <!-- Html Divider Mockup Start -->
+
+          <div class="divider"></div>
+
+          <!-- Html Divider Mockup End -->
+
+          <!-- Html Toggle Button Mockup Start -->
+
+          <div class="button-group">
+            <button id="add-money-btn" class="btn">Add Money</button>
+            <button id="cash-out-btn" class="btn">Cash Out</button>
+            <button id="transaction-histore" class="btn">Transaction</button>
+          </div>
+
+          <!-- Html Toggle Button Mockup End -->
+
+
+          <!-- Html Divider Mockup Start -->
+
+          <div class="divider"></div>
+
+          <!-- Html Divider Mockup End -->
+
+
+          <!-- Html Add Money Mockup Start -->
+
+          <div id="add-money-form" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+            <form class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Add Amount</span>
+                </label>
+                <input id="input-add-money" type="text" placeholder="Add Money" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Pin Number</span>
+                </label>
+                <input id="add-money-pin" type="password" placeholder="Pin Number 1234" class="input input-bordered"
+                  required />
+              </div>
+              <div class="form-control mt-6">
+                <button id="add-money-button" class="btn btn-primary">Add Money</button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Html Add Money Mockup End -->
+
+
+          <!-- Html Cash Out Mockup Start -->
+
+          <div id="cash-out-form" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+            <form class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Cash Out Amount</span>
+                </label>
+                <input id="input-cash-out" type="text" placeholder="Cash Out" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Pin Number</span>
+                </label>
+                <input id="cash-out-pin" type="password" placeholder="Pin Number 1234" class="input input-bordered"
+                  required />
+              </div>
+              <div class="form-control mt-6">
+                <button id="cash-out-button" class="btn btn-primary">Cash Out</button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Html Cash Out Mockup End -->
+
+
+          <!-- Html Transaction Mockup Start -->
+
+          <div id="transaction-histore-text" class="hidden bg-base-300 border-4 border-gray-50 rounded-md">
+
+            <div class="flex">
+              <div id="transaction-container-add" class="bg-base-200 text-center px-5 py-16">
+
+                <h1 class="pb-2 font-bold">Add Money Transaction</h1>
+
+              </div>
+
+              <div id="transaction-container-cash-out" class="bg-base-200 text-center px-5 py-16">
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Html Transaction Mockup End -->
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/utilities.js"></script>
+  <script src="js/addMoney.js"></script>
+  <script src="js/cashOut.js"></script>
+  <script src="js/features.js"></script>
+</body>
+
+</html>
